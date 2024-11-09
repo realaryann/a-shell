@@ -1,4 +1,4 @@
-#include "../Headers/shell.h"
+#include "shell.h"
 
 
 int main(int argc, char* argv[]) {
@@ -8,4 +8,12 @@ int main(int argc, char* argv[]) {
         shell_no_it();
     }
     return 0;
+}
+
+void shell_it(void) {
+    return;
+}
+
+void shell_no_it(void) {
+    return;
 }
