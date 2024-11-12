@@ -10,6 +10,7 @@
 /*Function Declarations*/
 extern void shell_it(void);
 extern std::string read_line(void);
+std::vector<std::string> parse_line(std::string line);
 extern void shell_no_it(void);
 
 #endif
